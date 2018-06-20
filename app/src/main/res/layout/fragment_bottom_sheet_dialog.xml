@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+
+    <!-- Preview -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/preview"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_remove_red_eye_black_24dp"
+        android:drawableTint="#737373"
+        android:paddingTop="8dp"
+        android:paddingStart="@dimen/activity_margin"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingBottom="8dp"
+        android:drawablePadding="32dp"
+        tools:targetApi="m" />
+
+    <!-- Share -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/share"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_share_black_24dp"
+        android:drawableTint="#737373"
+        android:paddingTop="8dp"
+        android:paddingStart="@dimen/activity_margin"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingBottom="8dp"
+        android:drawablePadding="32dp"
+        tools:targetApi="m" />
+
+    <!-- Get a Link -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/get_link"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_link_black_24dp"
+        android:drawableTint="#737373"
+        android:paddingTop="8dp"
+        android:paddingStart="@dimen/activity_margin"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingBottom="8dp"
+        android:drawablePadding="32dp"
+        tools:targetApi="m" />
+
+    <!-- Make a Copy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/make_copy"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_content_copy_black_24dp"
+        android:drawableTint="#737373"
+        android:paddingTop="8dp"
+        android:paddingStart="@dimen/activity_margin"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingBottom="8dp"
+        android:drawablePadding="32dp"
+        tools:targetApi="m" />
+
+    <!-- Email a Copy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/email_copy"
+        android:textColor="#737373"
+        android:textSize="16sp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableTint="#737373"
+        android:paddingTop="8dp"
+        android:paddingStart="@dimen/activity_margin"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingBottom="8dp"
+        android:drawablePadding="32dp"
+        tools:targetApi="m" />
+</LinearLayout>

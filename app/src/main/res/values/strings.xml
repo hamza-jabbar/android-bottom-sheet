@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Bottom Sheet</string>
+    <string name="action_settings">Settings</string>
+    <string name="order_details">Order Details</string>
+    <string name="price">₹435.00</string>
+    <string name="chicken_fried_rice">Chicken Fried Rice 1 x 1</string>
+    <string name="paneer_tikka">Paneer Tikka 1x2</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="apartment">Flat No 404, Skyline Apartments, Vizag - 500576</string>
+    <string name="proceed_payment">Proceed Payment</string>
+    <string name="show_bottom_sheet">Show Bottom Sheet</string>
+    <string name="show_bottom_sheet_dialog">Show Bottom Sheet Dialog</string>
+    <string name="show_bottom_sheet_dialog_fragment">Show Bottom Sheet Dialog Fragment</string>
+    <string name="close_sheet">Close Sheet</string>
+    <string name="expand_sheet">Expand Sheet</string>
+    <string name="preview">Preview</string>
+    <string name="share">share</string>
+    <string name="get_link">Get Link</string>
+    <string name="make_copy">Make a Copy</string>
+    <string name="email_copy">Email a Copy</string>
+</resources>

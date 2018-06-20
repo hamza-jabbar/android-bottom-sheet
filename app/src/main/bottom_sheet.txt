@@ -1,0 +1,26 @@
+>   It shows up from the bottom, showing relevent content
+
+There are Two Types
+
+-   Persistent: This displays in-app content
+
+Modal
+-   These have higher elevation than the app.
+-   Generally used to show linked content from other apps.
+-   They are not part of the view, they are shown dynamically using BottomSheetDialog(Fragment)
+
+----------------------------------------------- XML -----------------------------------------------
+app:layout_behavior: This attribute makes the layout act as the bottom sheet.
+                     The value is android.support.design.widget.BottomSheetBehavior
+
+app:behavior_peekHeight: This is the height of the bottom sheet when it is minimized.
+
+app:behavior_hideable: Makes bottom sheet hidden when swiped it down.
+
+
+----------------------------------------------- JAVA -----------------------------------------------
+BottomSheetBehavior - Provides callbacks and make the BottomSheet work with CoordinatorLayout.
+
+BottomSheetBehavior.BottomSheetCallback() - Provides callback when the Bottom Sheet changes its state.
+
+toggleBottomSheet() - Opens or closes the bottom sheet on button click.
